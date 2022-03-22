@@ -1,0 +1,160 @@
+body {
+  padding: 0;
+  height: 0;
+  margin: 0;
+  font-family: "spartan", sans-serif;
+  background-color: blackred;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "spartan", sans-serif;
+}
+
+.logo {
+  width: 60px;
+  /* margin-left: 30px; */
+}
+.ti-shopping-cart {
+  font-size: 25px;
+  /* margin-right: 30px; */
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: black;
+  z-index: 999;
+  position: webkit-sticky;
+  top: 0;
+  left: 0;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+#navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active {
+  color: pink;
+}
+#navbar li a.active:after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: white;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+/* #nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #nav ul li {
+    text-align: center;
+    padding: 10px;
+    margin-left: 80px;
+    display: inline-flex;
+    justify-content: center;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: "spartan", sans-serif;
+    list-style: none;
+  }
+  
+  a:hover {
+    color: red;
+  } */
+.contact-section {
+  background: linear-gradient(#ffffff36, #ffffff00),
+    url(../public/images/candy.jpg) no-repeat center;
+  background-size: cover;
+  padding: 200px 0;
+}
+.contact-section h1 {
+  text-align: center;
+  color: purple;
+  text-shadow: 1px 1px white;
+}
+.border {
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  background: white;
+  padding: 20px 40px;
+  outline: none;
+  color: white;
+  transition: 0.5s;
+}
+.contact-form-text:hover {
+  box-shadow: 0 0 10px 4px purple;
+}
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.contact-form-btn:hover {
+  background: #2980b9;
+}
+footer {
+  background: black;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.social {
+  width: 30px;
+  height: 30px;
+}
+@media only screen and (min-width: 800px) {
+}

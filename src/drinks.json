@@ -1,0 +1,27 @@
+{
+  "snacks": [
+    {
+      "name": "Skittles",
+      "rating": 4,
+      "price": 7.99,
+      "src": "https://cdn11.bigcommerce.com/s-gdttgy2o13/images/stencil/500x659/products/2318/11821/Untitled_design_35__68237.1625683715.png?c=2",
+      "title": "skittles"
+    },
+    {
+      "name": "Doritos",
+      "rating": 5,
+      "price": 5.99,
+      "src": "https://cdn11.bigcommerce.com/s-gdttgy2o13/images/stencil/500x659/products/2318/11821/Untitled_design_35__68237.1625683715.png?c=2"
+    },
+    { "name": "Fanta", "rating": 5, "price": 15.0 },
+    { "name": "Japanese Soda", "rating": 3, "price": 24.99 },
+    { "name": "Kit-Kat", "rating": 5, "price": 26.99 },
+    { "name": "Shogun", "rating": 5, "price": 30.99 },
+    { "name": "Layes", "rating": 3, "price": 8.99 },
+    { "name": "Peach Gummies", "rating": 4, "price": 5.99 },
+    { "name": "Mochi Melon", "rating": 5, "price": 4.99 },
+    { "name": "Bing-Bing", "rating": 4, "price": 5.99 },
+    { "name": "Strawberry Snack", "rating": 3, "price": 8.99 },
+    { "name": "Cheetos Bqq", "rating": 5, "price": 8.99 }
+  ]
+}
