@@ -4,7 +4,7 @@ import Drinks from "./pages/Drinks";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
-// import Slider from "./Components/Slider";
+// import PostList from "./Post/PostList";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
@@ -15,15 +15,13 @@ function App() {
   return (
     <Router>
       <div className="App">
+        {/* <PostList /> */}
         <Header />
-        {/* <Slider /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/drinks" element={<Drinks />} />
         </Routes>
-
-        {/* <Drinks /> */}
         <Footer />
       </div>
     </Router>
