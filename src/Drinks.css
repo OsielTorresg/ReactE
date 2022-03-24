@@ -90,9 +90,13 @@ a:hover {
 .title {
   color: black;
   font-family: "spartan", sans-serif;
+  font-size: 25px;
   /* text-shadow: 2px 1px blue; */
 }
-
+.product-container h3 {
+  color: black;
+  font-family: "spartan", sans-serif;
+}
 .product-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -139,11 +143,11 @@ a:hover {
 }
 .button:hover {
   opacity: 0.7;
-  color: pink;
-  background-color: grey;
+  color: white;
+  background-color: blue;
 }
 .button {
-  background-color: grey;
+  background-color: purple;
 }
 .sold {
   color: purple;

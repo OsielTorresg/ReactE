@@ -31,7 +31,7 @@ class Drinks extends React.Component {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star"></span>
-          {/* <!-- <h3>Skittles latest release with New Flavors and NO SHELL</h3> --> */}
+          <h3>Skittles latest release with New Flavors and NO SHELL</h3>
           <p class="price">$7.99</p>
           <a href="contact.html" class="button">
             ADD TO CART
@@ -46,7 +46,10 @@ class Drinks extends React.Component {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
-          {/* <!-- <h3>Tast a burger inside a chip with this limited flavor "teryiaki burger"</h3> --> */}
+          <h3>
+            Tast a burger inside a chip with this limited flavor "teryiaki
+            burger"
+          </h3>
           <p class="price">$5.99</p>
           <a href="contact.html" class="button">
             ADD TO CART
@@ -60,7 +63,9 @@ class Drinks extends React.Component {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
-          {/* <!-- <h3>Fanta white peach is extremly exclusive with its good tasting flavor</h3> --> */}
+          <h3>
+            Fanta white peach is extremly exclusive with its good tasting flavor
+          </h3>
           <p class="price">$15.00</p>
           <a href="contact.html" class="button">
             ADD TO CART
@@ -74,7 +79,7 @@ class Drinks extends React.Component {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star "></span>
           <span class="fa fa-star "></span>
-          {/* <!-- <h3>One of our best sellers the "Japanese favorite Ramune Soda"</h3> --> */}
+          <h3>One of our best sellers the "Japanese favorite Ramune Soda"</h3>
           <p class="price">$24.99</p>
           <a href="contact.html" class="button">
             ADD TO CART
@@ -88,7 +93,7 @@ class Drinks extends React.Component {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
-          {/* <!-- <h3>Contains Random assorted Japanese Kit-Kats</h3> --> */}
+          <h3>Contains Random assorted Japanese Kit-Kats</h3>
           <p class="price">$26.99</p>
           <a href="contact.html" class="button">
             ADD TO CART
@@ -102,7 +107,7 @@ class Drinks extends React.Component {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
-          {/* <!-- <h3>Assorted Full bag of Shogun Japanese Candy</h3> --> */}
+          <h3>Assorted Full bag of Shogun Japanese Candy</h3>
           <p class="price">$30.99</p>
           <a href="contact.html" class="button">
             ADD TO CART
@@ -116,7 +121,7 @@ class Drinks extends React.Component {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star"></span>
           <span class="fa fa-star "></span>
-          {/* <!-- <h3>Layes New Steak flavored Chips</h3> --> */}
+          <h3>Layes New flavored exotic Chips</h3>
           <p class="price">$8.99</p>
           <a href="contact.html" class="button">
             ADD TO CART
@@ -130,7 +135,7 @@ class Drinks extends React.Component {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star "></span>
-          {/* <!-- <h3>Gluten Free Peach Gummies</h3> --> */}
+          <h3>Gluten Free Peach Gummies</h3>
           <p class="price">$5.99</p>
           <a href="contact.html" class="button">
             ADD TO CART
@@ -144,7 +149,7 @@ class Drinks extends React.Component {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
-          {/* <!-- <h3>Creamy Red Bean taste with tropical Melon Flavor </h3> --> */}
+          <h3>Creamy Red Bean taste with tropical Melon Flavor </h3>
           <p class="price">$4.99</p>
           <a href="contact.html" class="button">
             ADD TO CART
@@ -158,7 +163,7 @@ class Drinks extends React.Component {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star "></span>
-          {/* <!-- <h3>Wonderful Snack for on the go "crunchy"</h3> --> */}
+          <h3>Wonderful Snack for on the go "crunchy"</h3>
           <p class="price">$5.99</p>
           <a href="contact.html" class="button">
             ADD TO CART
@@ -172,7 +177,7 @@ class Drinks extends React.Component {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star"></span>
           <span class="fa fa-star"></span>
-          {/* <!-- <h3>Traditional Japanese Snack with alot of flavors</h3> --> */}
+          <h3>Traditional Japanese Snack with alot of flavors</h3>
           <p class="price">$8.99</p>
           <a href="contact.html" class="button">
             ADD TO CART
@@ -187,7 +192,7 @@ class Drinks extends React.Component {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
-          {/* <!-- <h3>Limited addition BBQ Japanese Flavored chips </h3> --> */}
+          <h3>Limited addition BBQ Japanese Flavored chips </h3>
           <p class="price">$8.99</p>
           <a href="contact.html" class="button">
             ADD TO CART

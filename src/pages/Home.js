@@ -7,15 +7,6 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        <Slider />
-        {/* <section id="hero">
-          <h2>Exotic Japanese Snacks</h2>
-          <a class="active" href="/Drinks">
-            {" "}
-            <button class="normal">SHOP </button>
-          </a>
-        </section> */}
-
         <section id="feature" class="section-p1">
           <div class="fe-box">
             <img src="./images/Kik-Kat.jpeg" alt="" />
@@ -57,6 +48,62 @@ class Home extends React.Component {
           </div>
           <div class="fe-box">
             <img src="./images/Pocky.jpeg" alt="" />
+            <a class="active" href="/Drinks">
+              {" "}
+              <button class="normal">SOLD OUT</button>
+            </a>
+          </div>
+        </section>
+        <Slider />
+        {/* <section id="hero">
+          <h2>Exotic Japanese Snacks</h2>
+          <a class="active" href="/Drinks">
+            {" "}
+            <button class="normal">SHOP </button>
+          </a>
+        </section> */}
+
+        <section id="feature" class="section-p1">
+          <div class="fe-box">
+            <img src="./images/LayesP.jpg" alt="" />
+            <a class="active" href="/Drinks">
+              {" "}
+              <button class="normal">LIMITED</button>
+            </a>
+          </div>
+          <div class="fe-box">
+            <img src="./images/JapSodaP.jpg" alt="" />
+            <a class="active" href="/Drinks">
+              {" "}
+              <button class="normal">SOLD OUT</button>
+            </a>
+          </div>
+          <div class="fe-box">
+            <img src="./images/SkittlesP.png" alt="" />
+            <a class="active" href="/Drinks">
+              {" "}
+              <button class="normal">FREE SHIPPING</button>
+            </a>
+          </div>
+        </section>
+
+        <section id="feature" class="section-p1">
+          <div class="fe-box">
+            <img src="./images/ShogunP.jpg" alt="" />
+            <a class="active" href="/Drinks">
+              {" "}
+              <button class="normal">FREE SHIPPING</button>
+            </a>
+          </div>
+          <div class="fe-box">
+            <img src="./images/Kik-katP.jpg" alt="" />
+            <a class="active" href="/Drinks">
+              {" "}
+              <button class="normal">LIMITED</button>
+            </a>
+          </div>
+          <div class="fe-box">
+            <img src="./images/BingP.jpg" alt="" />
             <a class="active" href="/Drinks">
               {" "}
               <button class="normal">SOLD OUT</button>
