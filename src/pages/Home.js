@@ -18,30 +18,21 @@ class Home extends React.Component {
 
         <section id="feature" class="section-p1">
           <div class="fe-box">
-            <img
-              src="https://www.saqramart.com/resources/upload/products/thumbnail2/4902443525385.jpg"
-              alt=""
-            />
+            <img src="./images/Kik-Kat.jpeg" alt="" />
             <a class="active" href="/Drinks">
               {" "}
               <button class="normal">LIMITED</button>
             </a>
           </div>
           <div class="fe-box">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0338/0694/2253/products/KitkatMiniPistachioWafers3.84oz_108.9g__front_900x.jpg?v=1646677290"
-              alt=""
-            />
+            <img src="./images/Cheetos.jpeg" alt="" />
             <a class="active" href="/Drinks">
               {" "}
               <button class="normal">SOLD OUT</button>
             </a>
           </div>
           <div class="fe-box">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0338/0694/2253/products/CalbeeMyPotePotatoChips-GarlicHerbButter2.12oz_60g__front_360x.jpg?v=1646405627"
-              alt=""
-            />
+            <img src="./images/Pringles.jpeg" alt="" />
             <a class="active" href="/Drinks">
               {" "}
               <button class="normal">FREE SHIPPING</button>
@@ -51,30 +42,21 @@ class Home extends React.Component {
 
         <section id="feature" class="section-p1">
           <div class="fe-box">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0338/0694/2253/products/Alfonso_sHotChocolateTablets7.05oz_Front_360x.jpg?v=1624991026"
-              alt=""
-            />
+            <img src="./images/Coke.jpeg" alt="" />
             <a class="active" href="/Drinks">
               {" "}
               <button class="normal">FREE SHIPPING</button>
             </a>
           </div>
           <div class="fe-box">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0338/0694/2253/products/OceanBombDragonBallZGokuSparklingWater-OrangeFlavor11.15oz_front_360x.jpg?v=1623959462"
-              alt=""
-            />
+            <img src="./images/doritos.jpeg" alt="" />
             <a class="active" href="/Drinks">
               {" "}
               <button class="normal">LIMITED</button>
             </a>
           </div>
           <div class="fe-box">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0338/0694/2253/products/GlicoPockyBiscuitSticks-Cookies_Cream2.47oz_Front_360x.jpg?v=1603996856"
-              alt=""
-            />
+            <img src="./images/Pocky.jpeg" alt="" />
             <a class="active" href="/Drinks">
               {" "}
               <button class="normal">SOLD OUT</button>
