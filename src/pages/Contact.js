@@ -4,7 +4,12 @@ class Contact extends React.Component {
     return (
       <section class="contact-section">
         <h1>CONTACT US</h1>
-        <form class="contact-form" action="index.html" method="post">
+        <form
+          class="contact-form"
+          action="index.html"
+          onSubmit="return validationForm()"
+          method="post"
+        >
           <input
             type="text"
             class="contact-form-text"

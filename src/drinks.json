@@ -29,11 +29,11 @@
       "title": "Coke"
     },
     {
-      "name": "Doritos1",
+      "name": "DoritosAvacado",
       "rating": 4,
       "price": 3.99,
       "src": "./images/doritos.jpeg",
-      "title": "Doritos"
+      "title": "DoritosAvacado"
     },
     {
       "name": "Pocky",
@@ -42,16 +42,23 @@
       "src": "./images/Pocky.jpeg",
       "title": "Pocky"
     },
-
     {
-      "name": "Skittles",
-      "rating": 4,
-      "price": 7.99,
-      "src": "./images/SkittlesP.png",
-      "title": "skittles"
+      "name": "LayesExotic",
+      "rating": 5,
+      "price": 5.99,
+      "src": "./images/LayesP.jpg",
+      "title": "LayesExotic"
     },
     {
-      "name": "Doritos2",
+      "name": "SkittlesSmoothie",
+      "rating": 5,
+      "price": 7.99,
+      "src": "./images/SkittlesP.png",
+      "title": "skittlesSmoothie"
+    },
+
+    {
+      "name": "Doritos",
       "rating": 5,
       "price": 5.99,
       "src": "./images/DoritosP.png",

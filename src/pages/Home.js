@@ -7,6 +7,14 @@ class Home extends React.Component {
   render() {
     return (
       <>
+        <section id="banner" class="section-m1">
+          <h2> Welcome To Exotic Japanese Snacks </h2>
+
+          {/* <a class="active" href="/Drinks">
+            {" "}
+            <button class="normal">Explore More</button>
+          </a> */}
+        </section>
         <section id="feature" class="section-p1">
           <div class="fe-box">
             <img src="./images/Kik-Kat.jpeg" alt="" />
@@ -30,7 +38,7 @@ class Home extends React.Component {
             </a>
           </div>
         </section>
-
+        <Slider />
         <section id="feature" class="section-p1">
           <div class="fe-box">
             <img src="./images/Coke.jpeg" alt="" />
@@ -54,7 +62,6 @@ class Home extends React.Component {
             </a>
           </div>
         </section>
-        <Slider />
         {/* <section id="hero">
           <h2>Exotic Japanese Snacks</h2>
           <a class="active" href="/Drinks">
@@ -63,7 +70,7 @@ class Home extends React.Component {
           </a>
         </section> */}
 
-        <section id="feature" class="section-p1">
+        {/* <section id="feature" class="section-p1">
           <div class="fe-box">
             <img src="./images/LayesP.jpg" alt="" />
             <a class="active" href="/Drinks">
@@ -85,9 +92,9 @@ class Home extends React.Component {
               <button class="normal">FREE SHIPPING</button>
             </a>
           </div>
-        </section>
+        </section> */}
 
-        <section id="feature" class="section-p1">
+        {/* <section id="feature" class="section-p1">
           <div class="fe-box">
             <img src="./images/ShogunP.jpg" alt="" />
             <a class="active" href="/Drinks">
@@ -109,7 +116,7 @@ class Home extends React.Component {
               <button class="normal">SOLD OUT</button>
             </a>
           </div>
-        </section>
+        </section> */}
         <section id="banner" class="section-m1">
           <h2>CLICK TO SEE MORE! </h2>
           <a class="active" href="/Drinks">

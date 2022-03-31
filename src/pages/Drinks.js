@@ -1,31 +1,49 @@
+import axios from "axios";
 import React from "react";
-import drinks from "../drinks.json";
+// import drinks from "../drinks.json";
 class Drinks extends React.Component {
+  state = {
+    products: [],
+    type: "reset",
+  };
+  componentDidMount() {
+    axios.get("http://localhost:4000/api/products").then((res) => {
+      const products = res.data;
+      this.setState({ products });
+    });
+  }
+  // productFilter(selection) {
+  //   return () => {
+  //     this.setState({ selection });
+  //   };
+  // }
   render() {
     return (
-      <div class="product-container">
-        {/* {drinks.snacks.map((snack) => (
-          <div className="Product">
-            <img
-              src="https://cdn11.bigcommerce.com/s-gdttgy2o13/images/stencil/500x659/products/2318/11821/Untitled_design_35__68237.1625683715.png?c=2"
-              alt="candy"
-            />
-            <h2 class="title">SKITTLES</h2>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            {/* <!-- <h3>Skittles latest release with New Flavors and NO SHELL</h3> --> */}
-        {/* <p class="price">$7.99</p>
-            <a href="/contact.html" class="button">
-              ADD TO CART
-            </a>
-          </div>
-        ))} */}
-        <div class="product">
+      <>
+        {/* <button onClick={this.productFilter(10)}>10</button> */}
+
+        <div className="product-container">
+          {this.state.products.map((card) => {
+            return (
+              <div class="product">
+                <img src={card.image} alt={card.name} />
+                <h2 class="title">{card.name}</h2>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <h3>{card.description}</h3>
+                <p class="price">${card.price}</p>
+                <a href="contact.html" class="button">
+                  ADD TO CART
+                </a>
+              </div>
+            );
+          })}
+          {/* <div class="product">
           <img src="./images/SkittlesP.png" alt="snack" />
-          <h2 class="title">SKITTLES</h2>
+          <h2 class="title">Skittles Smoothie</h2>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -40,14 +58,14 @@ class Drinks extends React.Component {
 
         <div class="product">
           <img src="./images/DoritosP.png" alt="snack" />
-          <h2 class="title">DORITOS</h2>
+          <h2 class="title">Doritos</h2>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <h3>
-            Tast a burger inside a chip with this limited flavor "teryiaki
+            Taste a burger inside a chip with this limited flavor "teryiaki
             burger"
           </h3>
           <p class="price">$5.99</p>
@@ -57,7 +75,7 @@ class Drinks extends React.Component {
         </div>
         <div class="product">
           <img src="./images/FantaP.png" alt="snack" />
-          <h2 class="title">FANTA</h2>
+          <h2 class="title">Fanta</h2>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -73,7 +91,7 @@ class Drinks extends React.Component {
         </div>
         <div class="product">
           <img src="./images/JapSodaP.jpg" alt="snack" />
-          <h2 class="title"> JAPANESE SODA</h2>
+          <h2 class="title"> Japanese Soda</h2>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -101,7 +119,7 @@ class Drinks extends React.Component {
         </div>
         <div class="product">
           <img src="./images/ShogunP.jpg" alt="snack" />
-          <h2 class="title">SHOGUN</h2>
+          <h2 class="title">Shogun</h2>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -115,7 +133,7 @@ class Drinks extends React.Component {
         </div>
         <div class="product">
           <img src="./images/LayesP.jpg" />
-          <h2 class="title">LAYES</h2>
+          <h2 class="title">Layes</h2>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -129,7 +147,7 @@ class Drinks extends React.Component {
         </div>
         <div class="product">
           <img src="./images/PeachP.jpg" alt="snack" />
-          <h2 class="title">PEACH GUMMIES</h2>
+          <h2 class="title">Peach Gummies</h2>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -143,7 +161,7 @@ class Drinks extends React.Component {
         </div>
         <div class="product">
           <img src="./images/MochiP.jpg" alt="snack" />
-          <h2 class="title">MOCHI MELON</h2>
+          <h2 class="title">Mochi Melon</h2>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -157,7 +175,7 @@ class Drinks extends React.Component {
         </div>
         <div class="product">
           <img src="./images/BingP.jpg" alt="snack" />
-          <h2 class="title">BING-BING</h2>
+          <h2 class="title">Bing-Bing</h2>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -186,7 +204,7 @@ class Drinks extends React.Component {
 
         <div class="product">
           <img src="./images/CheetosP.png" alt="snack" />
-          <h2 class="title">CHEETOS BQQ</h2>
+          <h2 class="title">Cheetos Bqq</h2>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -197,8 +215,9 @@ class Drinks extends React.Component {
           <a href="contact.html" class="button">
             ADD TO CART
           </a>
+        </div> */}
         </div>
-      </div>
+      </>
     );
   }
 }
