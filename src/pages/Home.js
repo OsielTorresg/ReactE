@@ -7,7 +7,7 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        <section id="banner" class="section-m1">
+        <section id="banner" className="section-m1">
           <h2> Welcome To Exotic Japanese Snacks </h2>
 
           {/* <a class="active" href="/Drinks">
@@ -15,50 +15,50 @@ class Home extends React.Component {
             <button class="normal">Explore More</button>
           </a> */}
         </section>
-        <section id="feature" class="section-p1">
-          <div class="fe-box">
+        <section id="feature" className="section-p1">
+          <div className="fe-box">
             <img src="./images/Kik-Kat.jpeg" alt="" />
-            <a class="active" href="/Drinks">
+            <a className="active" href="/Drinks">
               {" "}
-              <button class="normal">LIMITED</button>
+              <button className="normal">LIMITED</button>
             </a>
           </div>
-          <div class="fe-box">
+          <div className="fe-box">
             <img src="./images/Cheetos.jpeg" alt="" />
-            <a class="active" href="/Drinks">
+            <a className="active" href="/Drinks">
               {" "}
-              <button class="normal">SOLD OUT</button>
+              <button className="normal">SOLD OUT</button>
             </a>
           </div>
-          <div class="fe-box">
+          <div className="fe-box">
             <img src="./images/Pringles.jpeg" alt="" />
-            <a class="active" href="/Drinks">
+            <a className="active" href="/Drinks">
               {" "}
-              <button class="normal">FREE SHIPPING</button>
+              <button className="normal">FREE SHIPPING</button>
             </a>
           </div>
         </section>
         <Slider />
-        <section id="feature" class="section-p1">
-          <div class="fe-box">
+        <section id="feature" className="section-p1">
+          <div className="fe-box">
             <img src="./images/Coke.jpeg" alt="" />
-            <a class="active" href="/Drinks">
+            <a className="active" href="/Drinks">
               {" "}
-              <button class="normal">FREE SHIPPING</button>
+              <button className="normal">FREE SHIPPING</button>
             </a>
           </div>
-          <div class="fe-box">
+          <div className="fe-box">
             <img src="./images/doritos.jpeg" alt="" />
-            <a class="active" href="/Drinks">
+            <a className="active" href="/Drinks">
               {" "}
-              <button class="normal">LIMITED</button>
+              <button className="normal">LIMITED</button>
             </a>
           </div>
-          <div class="fe-box">
+          <div className="fe-box">
             <img src="./images/Pocky.jpeg" alt="" />
-            <a class="active" href="/Drinks">
+            <a className="active" href="/Drinks">
               {" "}
-              <button class="normal">SOLD OUT</button>
+              <button className="normal">SOLD OUT</button>
             </a>
           </div>
         </section>
@@ -119,9 +119,9 @@ class Home extends React.Component {
         </section> */}
         <section id="banner" class="section-m1">
           <h2>CLICK TO SEE MORE! </h2>
-          <a class="active" href="/Drinks">
+          <a className="active" href="/Drinks">
             {" "}
-            <button class="normal">Explore More</button>
+            <button className="normal">Explore More</button>
           </a>
         </section>
       </>
